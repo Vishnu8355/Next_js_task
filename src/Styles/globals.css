@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+    @apply bg-gray-100 text-gray-900;
+}
+
+a {
+    @apply text-white hover:text-blue-700;
+}
+
+.container {
+    @apply mx-auto px-4;
+}
+
+img {
+    @apply rounded-md;
+}
+
+/* Navbar Styles */
+nav a {
+    @apply text-white no-underline;
+}
+
+
+
+/* Footer Styles */
+
+
+
+
+
+
+img {
+  height: auto;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.text-gray-900 {
+    font-family: poppins;
+  color: #1a202c;
+}
+
+.dark .text-gray-900 {
+  color: #f7fafc;
+}
+
+.bg-blue-700 {
+  background-color: #1d4ed8;
+}
+
+.bg-blue-100 {
+  background-color: #ebf8ff;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
